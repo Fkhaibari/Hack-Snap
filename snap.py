@@ -46,8 +46,8 @@ d1mod = input (red_color + '''
 
 
 if d1mod == "1":
-  user = input("USERNAME OF SNAPCHAT => ")
-  flo = input("FILE PASSWORD (COMBO) => ")
+  user = input("USERNAME OF SNAPCHAT => ")se.dala 
+  flo = input("FILE PASSWORD (COMBO) => ") pass
 
   url = "https://gcp.api.snapchat.com/scauth/login"
 
